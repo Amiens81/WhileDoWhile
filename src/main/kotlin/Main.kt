@@ -11,7 +11,7 @@ fun main() {
         numberToIterate--
     }
     println("Первый вариант. Факториал числа $number равен $factorial")
-    //todo ервая задача Второй вариант через рекурсию
+    //todo Первая задача Второй вариант через рекурсию
     println("Введите ваше число: ")
     val num = readLine()!!.toInt()
     fun factorial(num: Int): Int {
@@ -35,7 +35,7 @@ fun main() {
     println("Третья задача")
     println("Введите первое число")
     val A = readLine()!!.toInt()
-    println("Введите трое число, которое должно быть больше первого")
+    println("Введите второе число, которое должно быть больше первого")
     val B = readLine()!!.toInt()
     var x = A
     var count = 0
